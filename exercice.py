@@ -3,15 +3,10 @@
 
 
 def is_even_len(string: str) -> bool:
-    chaine = input('rentrer une chaine de caractère')
-    if len(chaine)%2 == 0:
-        return True
-    else:
-        return False
+    return len(string)%2 == 0
 
 def remove_third_char(string: str) -> str:
-    chaine2 = input('rentrer une chaine de caractère')
-    separer = split (chaine2)
+    separer = split (string)
     for c in separer and != separer[3] :
         return c
 
